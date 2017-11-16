@@ -1,0 +1,20 @@
+import com.qualcomm.robotcore.hardware.DcMotor;
+
+Public class Test{
+  Public static void main(String args[]){
+
+DcMotor FrontMotor1;
+DcMotor FrontMotor2;
+DcMotor BackMotor1;
+DcMotor BackMotor2;
+
+	
+BackMotor1.setDirection(DcMotor.Direction.REVERSE);
+BackMotor2.setDirection(DcMotor.Direction.REVERSE);
+
+
+while(1==1)
+  BackMotor1.setPower(-0.75);
+  BackMotor2.setPower(-0.75);
+    }
+}
